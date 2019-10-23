@@ -11,7 +11,7 @@ public class Main {
         System.out.println(mp2.toString());
         MoveablePoint mp3 = new MoveablePoint(8,8,9,9);
         System.out.println(mp3.toString());
-        mp3.move();
+        mp3 = mp3.move();
         System.out.println("After Move:");
         System.out.println(mp3.toString());
 
